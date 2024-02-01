@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "author": "Siddharth Garg",
+    "name": "Tabbie.chrome",
+    "version": "1.0",
+    "description": "This extension overrides the default new tab.",
+    "icons": {
+        "128": "assets/icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
